@@ -1,0 +1,31 @@
+html{
+    box-sizing: border-box;
+    padding-bottom: 0;
+}
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+body{
+    min-width: 320px;
+    overflow-x: hidden;
+    background-color: #000;
+    font-family: 'Exo 2', sans-serif;   
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: #000;
+}
+ul,
+li{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
